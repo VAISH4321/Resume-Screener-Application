@@ -29,33 +29,6 @@ The **Resume Screener** is a Streamlit-based web application that automates the 
 
 - Python 3.8 or higher
 - Streamlit installed (`pip install streamlit`)
-- Required libraries (see below)
-
-### Steps to Install
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YourUsername/ResumeScreener.git
-   cd ResumeScreener
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```bash
-   streamlit run app.py
-   ```
-
-### Environment Variables
-
-Create an `.env` file in the root directory to store the following credentials:
-```plaintext
-SMTP_EMAIL=resumescreener7@gmail.com
-SMTP_PASSWORD=your_email_password  # Use app-specific password for Gmail
-```
 
 ## How It Works
 
@@ -73,8 +46,6 @@ SMTP_PASSWORD=your_email_password  # Use app-specific password for Gmail
 ## File Structure
 
 - **app.py**: The main file containing the Streamlit application logic.
-- **requirements.txt**: Lists all the Python dependencies for the project.
-- **assets/**: Folder for additional assets like images (if any).
 
 ## Future Enhancements
 
